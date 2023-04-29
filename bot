@@ -37,7 +37,7 @@ async def on_member_join(member):
 # Непосредственно сам бот, который запускает бота в чате
 def run_bot():
     # Индивидуальный токен, который выдаёт сам дискорд
-    TOKEN = 'MTA5OTQwMTg2MzAzMzUzMjU3Nw.GXiNbQ.OSjPurMtYawkzsFbgsqO3cIHH_GBKddFZ6Gb0E'
+    TOKEN = 'MTA5OTQwMTg2MzAzMzUzMjU3Nw.GqsCuh.k_hGTbPdUDufARDeB1JD52j_2hn8vm9DU0IaWQ'
     # Определение намерений бота, конкретно есть guilds и message_content
     intents = discord.Intents.default()
     intents.message_content = True
